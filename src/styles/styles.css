@@ -1,0 +1,109 @@
+.first-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 17%;
+}
+
+.seccond-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 26%;
+}
+
+.seccond-card-paragraph{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.third-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 15%;
+}
+
+.third-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-Projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 3%;
+}
+
+.fourth-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.container-services > ul {
+    display: flex;
+    gap: 20px;
+}
+
+.fifth-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.container-skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-skills > ul {
+    display: flex;
+    gap: 70px;
+}
+
+.sixth-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    flex-direction: column;
+}
+
+.container-work{
+    width: 80%;
+}
+
+.container-work > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.container-img{
+    background: #2e2e2e;
+    width: 80px;
+    height: 80px;
+    border-radius: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
