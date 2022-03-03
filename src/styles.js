@@ -253,6 +253,7 @@ export const Btn = styled.div`
     box-shadow: 2px -2px 0 1px #FFFFFF inset;
     transform: scale(0.9) rotate(135deg);
     transition: 0.3s;
+    background:none;
 
     &:hover{
         transform: scale(1) rotate(135deg);;
