@@ -1,36 +1,12 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
 
-`
-
-export const Header = styled.header`
-   nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 35px;
-    margin-bottom: 250px;
-    
-    ul{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-   }
-`
-export const H1 = styled.h1`
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 34px;
-`
 export const LI = styled.li`
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 23px;
-    margin-left: 45px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-left: 2.5rem;
     list-style-type: none;
 
    a{
@@ -41,42 +17,15 @@ export const LI = styled.li`
 
 `
 
-
-export const Main = styled.main`
-
-`
-
 //First-Card
-export const H2 = styled.h2`
-    font-style: normal;
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 47px;
-
-   &:hover{
-       color: #323D70;
-       cursor: pointer;
-   }
-`
-
-export const P = styled.p`
-    margin-top: 45px;
-    margin-bottom: 30px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 23px;
-    color: #828282;
-`
-
 export const Button = styled.button`
-    width: 200px;
-    height: 58px;
+    width: 11rem;
+    height: 3.5rem;
     border: 1px solid #333333;
-    margin-top: 35px;
+    margin-top: 2rem;
     cursor: pointer;
-    font-size: 17px;
-    margin-left: 10px;
+    font-size: 1rem;
+    margin-left: 1rem;
 
     &:hover{
         background: #323D70;
@@ -93,19 +42,19 @@ export const Button = styled.button`
 export const Subtittle = styled.h2`
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 42px;
-    margin-bottom: 30px;
+    font-size: 2.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
 `
 
 //Third Card
 export const Project = styled.a`
-    width: 450px;
-    height: 300px;
+    width: 29rem;
+    height: 19rem;
     background: #212121;
     border: 1px solid #333333;
     border-radius: 3px;
-    padding: 20px 25px;
+    padding: 1.5rem 2rem;
     cursor: pointer;
     transform: scale(0.9);
     transition: 0.3s;
@@ -117,44 +66,45 @@ export const Project = styled.a`
     h3{
         background: #212121;
         font-weight: 500;
-        font-size: 25px;
-        line-height: 23px;
+        font-size: 1.5rem;
+        line-height: 1rem;
         color: #FFFFFF;
-        margin: 23px 0 6px 0;
+        margin: 1.5rem 0 .5rem 0;
     }
 
     p{
         background: #212121; 
-        font-size: 20px;
-        line-height: 18px;
+        font-size: 1.2rem;
+        line-height: 1rem;
         color: #828282;
     }
 
     img{
-        width: 395px;
+        width: 25rem;
     }
 `
 
 //Fourth card
 export const Services = styled.li`
-    width: 450px;
-    height: 300px;
+    width: 28rem;
+    height: 18rem;
     background: #212121;
     border: 1px solid #333333;
     border-radius: 3px;
     list-style-type: none;
-
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 2rem;
+    line-height: 2.5rem;
     color: #828282;
-    padding-left: 30px;
+    padding-left: 2rem;
+
+
     img{
         display: block;
-        margin: 44px 0;
-        width: 100px;
-        height: 100px;
+        margin: 2.5rem 0;
+        width: 5rem;
+        height: 5rem;
         background: none;
     }
 
@@ -188,22 +138,22 @@ export const Work = styled.li`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 180px;
+    width: 12rem;
 
 
     img{
         background: none;
-        width: 45px;
-        height: 45px;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     p{
         font-style: normal;
         font-weight: bold;
-        font-size: 22px;
-        line-height: 23px;
+        font-size: 1.5rem;
+        line-height: 1.3rem;
         color: #F9F9F9;
-        margin: 15px 0 5px 0;
+        margin: 1rem 0 .2rem 0;
 
         &:hover{
             color:#323D70;
@@ -213,43 +163,20 @@ export const Work = styled.li`
     span{
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
-        line-height: 21px;
+        font-size: 1.2rem;
+        line-height: 1.1rem;
         color: #828282;
-    }
-`
-
-export const Footer = styled.footer`
-    margin-top: 185px;
-
-    div{
-        width: 100%;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: none;
-    }
-
-    p{
-        background: none;
-        font-size: 18px;
-
-        strong{
-            background: none;
-            color: #323D70;
-        }
     }
 `
 
 export const Btn = styled.div`
     position: fixed;
-    bottom: 80px;
-    right: 50px;
+    bottom: 3rem;
+    right: 3rem;
     cursor: pointer;
     border: solid transparent;
     border-width: 0 0 2px 2px;
-    padding: 30px;
+    padding: 1rem;
     box-shadow: 2px -2px 0 1px #FFFFFF inset;
     transform: scale(0.9) rotate(135deg);
     transition: 0.3s;

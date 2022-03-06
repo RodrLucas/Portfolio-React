@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/styles.css'
-import { Container, Header, H1, LI, Main, H2, P, Button, Subtittle, Project, Services, Skills, Work, Footer, Btn } from './styles';
+import {LI, Button, Subtittle, Project, Services, Skills, Work, Btn } from './styles';
 
 import ConversorImg from './assets/conversor.png'
 import BlogInterface from './assets/blogInterface.png'
@@ -35,41 +35,40 @@ const App = () => {
 
 
     return (
-        <Container>
-            <Header>
-                <nav>
-                    <H1>Portfólio</H1>
-                    <ul>
+        <div>
+            <header className='cabecalho container'>
+                <nav className='cabecalho__nav'>
+                    <h1 className='cabecalho__titulo'>Portfólio</h1>
+                    <ul className='cabecalho__list'>
                         <LI><a href='#AboutMe'>Sobre mim</a></LI>
                         <LI><a href='#Projects'>Projetos</a></LI>
                         <LI><a href='#Services'>Serviços</a></LI>
                         <LI><a href='#Skills'>Minhas Skills</a></LI>
                     </ul>
                 </nav>
-            </Header>
-
-            <Main>
-                <div className='first-card'>
-                    <H2>Olá, eu sou o Lucas Rodrigues</H2>
-                    <P>Desenvolvedor Front-End</P>
+            </header>
+            <main>
+                <div className='first'>
+                    <h2 className='first__titulo'>Olá, eu sou o Lucas Rodrigues</h2>
+                    <p className='first__paragrafo'>Desenvolvedor Front-End</p>
                     <div>
                         <Button><a href={Resume} download>Download CV</a></Button>
                         <Button><a href="https://api.whatsapp.com/send?phone=5511996987610" target="_blank" rel="noreferrer noopener">Entrar em contato</a></Button>
                     </div>
                 </div>
 
-                <div className='seccond-card'>
+                <div className='seccond'>
                     <Subtittle id='AboutMe'>Sobre mim</Subtittle>
-                    <div className='seccond-card-paragraph'>
+                    <div className='seccond__paragraph'>
                         <p>Olá, sou o Lucas Rodrigues, apaixonado por tecnologia, extremamente
                             motivado por desafios e sempre aprendendo durante minha jornada como desenvolvedor Front-End. Atualmente
                             venho desenvolvendo minhas habilidades nas tecnologias HTML5, CSS3, JavaScript e React.js. <br /> Além disso, com minha experiência em outras áreas pude desenvolver habilidades de gestão do tempo, comunicação efetiva e relacionamento com cliente.</p>
                     </div>
                 </div>
 
-                <div className='third-card'>
+                <div className='third'>
                     <Subtittle id='Projects'>Projetos</Subtittle>
-                    <div className='container-Projects'>
+                    <div className='container__Projects'>
                         <Project href="https://rodrlucas.github.io/ConvertMoney/" target="_blank" rel="noreferrer noopener">
                             <img src={ConversorImg} alt="Conversor" />
                             <h3>Conversor de Moedas</h3>
@@ -103,10 +102,10 @@ const App = () => {
                     </div>
                 </div>
 
-                <div className='fourth-card'>
+                <div className='fourth'>
                     <Subtittle id='Services'>Serviços</Subtittle>
-                    <div className='container-services'>
-                        <ul>
+                    <div className='container__services'>
+                        <ul className='services__list' >
                             <Services>
                                 <img src={Code} alt="Code" />
                                 Criação de sites
@@ -123,10 +122,10 @@ const App = () => {
                     </div>
                 </div>
 
-                <div className='fifth-card'>
+                <div className='fifth'>
                     <Subtittle id='Skills'>Minhas Skills</Subtittle>
-                    <div className='container-skills'>
-                        <ul>
+                    <div className='container__skills'>
+                        <ul className='skills__list'>
                             <Skills>
                                 <img src={Html} alt='HTML' />
                             </Skills>
@@ -146,10 +145,10 @@ const App = () => {
                     </div>
                 </div>
 
-                <div className='sixth-card'>
+                <div className='sixth'>
                     <Subtittle>Vamos trabalhar juntos...</Subtittle>
                     <div className='container-work'>
-                        <ul>
+                        <ul className='work__list'>
                             <Work>
                                 <div className='container-img'>
                                     <img src={Email} alt='Email' />
@@ -191,13 +190,13 @@ const App = () => {
                 </div>
 
                 <Btn onClick={backToTop} id='backToTop'></Btn>
-            </Main>
-            <Footer>
+            </main>
+            <footer>
                 <div className='footer'>
-                    <p>Orgulhosamente feito por <strong>Lucas Rodrigues</strong></p>
+                    <p className='footer__paragrafo'>Orgulhosamente feito por <strong>Lucas Rodrigues</strong></p>
                 </div>
-            </Footer>
-        </Container>
+            </footer>
+        </div>
     )
 }
 
