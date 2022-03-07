@@ -1,0 +1,50 @@
+.about {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.about__subtittle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.about__paragraph {
+    width: 95%;
+    margin: 0 auto;
+    letter-spacing: .1rem;
+    line-height: 1.5rem;
+}
+
+
+
+
+@media screen and (min-width:1024px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 26%;
+    }
+    
+    .about__subtittle {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.5rem;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+    .about__paragraph{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        letter-spacing: .2rem;
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+    }
+    
+}

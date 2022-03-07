@@ -1,0 +1,68 @@
+.chamada {
+    margin-top: 3rem;
+}
+
+.chamada__titulo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.chamada__paragrafo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    color: #828282;
+    text-align: center;
+}
+
+.chamada__container {
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.chamada__link {
+    border: 1px solid #333333;
+    padding: 0.5rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .chamada {
+        margin-top: 11rem;
+    }
+
+    .chamada__titulo {
+        font-size: 3rem;
+    }
+    .chamada__titulo:hover {
+        color: #323D70;
+        cursor: pointer;
+    }
+
+    .chamada__paragrafo {
+        font-size: 2rem;
+    }
+
+    .chamada__container {
+        font-size: 1.2rem;
+        
+    }
+
+    .chamada__link {
+        border-radius: 8px;
+    }
+
+    .chamada__link:hover {
+        background: #323D70;
+        transition: 1.2s;
+    }
+}

@@ -1,0 +1,22 @@
+@media screen and (min-width:1024px){
+    .btn {
+        position: fixed;
+        bottom: 3rem;
+        right: 5rem;
+        cursor: pointer;
+        border: solid transparent;
+        border-width: 0 0 2px 2px;
+        padding: 1rem;
+        box-shadow: 2px -2px 0 1px #ffffff inset;
+        transform: scale(0.9) rotate(135deg);
+        transition: 0.3s;
+        background: none;
+    }
+    
+    .btn:hover {
+        transform: scale(1) rotate(135deg);;
+        box-shadow: 2px -2px 0 1px #323D70 inset;
+    }
+    
+}
+
